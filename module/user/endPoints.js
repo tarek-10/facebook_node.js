@@ -1,0 +1,18 @@
+const SET_POST = "user:SET_POST";
+const UPDATE_USER ="user:UPDATE_USER";
+const UPDATE_PASSWORD = "user:UPDATE_PASSWORD";
+const DEACTIVE_USER ="user:DEACTIVE_USER";
+const GET_ALL_USER ="user:GET_ALL_USER";
+const ADD_ADMIN = "user:ADD_ADMIN";
+const GET_ADMIN_LIST ="user:GET_ADMIN_LIST";
+const DELETE_ADMIN = "user:DELETE_ADMIN"
+module.exports={
+    SET_POST,
+    UPDATE_USER,
+    UPDATE_PASSWORD,
+    DEACTIVE_USER,
+    GET_ALL_USER,
+    ADD_ADMIN,
+    GET_ADMIN_LIST,
+    DELETE_ADMIN
+}
